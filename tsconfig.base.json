@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "strict": true,
+    // "allowJs": true,
+    "target": "es5",
+    "lib": ["dom", "es7"],
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": false,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    // "types": ["cypress", "@types/testing-library__cypress"],
+    "paths": {
+      "@codebox": ["./docs/codebox"]
+    },
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    "lib",
+    "es",
+    "docs",
+    "scripts",
+    "src/**/__tests__",
+    "src/**/testSuite",
+    "src/**/demo",
+    "cypress",
+    "codeceptjs",
+    "testcafe"
+  ]
+}
